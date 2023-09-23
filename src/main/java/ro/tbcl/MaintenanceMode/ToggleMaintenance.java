@@ -1,7 +1,6 @@
 package ro.tbcl.MaintenanceMode;
 
 import org.bukkit.command.*;
-import org.bukkit.scheduler.BukkitTask;
 import ro.tbcl.MaintenanceMode.tasks.RestartIfNoPlayersTask;
 import ro.tbcl.MaintenanceMode.tasks.SendMessageToPlayersTask;
 

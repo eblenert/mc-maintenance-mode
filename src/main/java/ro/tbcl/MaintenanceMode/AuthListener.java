@@ -8,8 +8,8 @@ import ro.tbcl.MaintenanceMode.tasks.RestartIfNoPlayersTask;
 
 public class AuthListener implements Listener {
 
-    private MaintenanceMode plugin;
-    private DataStore dataStore;
+    private final MaintenanceMode plugin;
+    private final DataStore dataStore;
 
     public AuthListener(MaintenanceMode plugin) {
         this.plugin = plugin;
